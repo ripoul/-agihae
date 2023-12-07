@@ -3,7 +3,10 @@ tax = {"UT": 0.0685, "NV": 0.008, "TX": 0.0625, "AL": 0.04, "CA": 0.0825}
 
 
 def main():
-    print(int(input("nombre d'article : ")))
-    print(int(input("prix par article : ")))
+    nb_art = int(input("nombre d'article : "))
+    pu = int(input("prix par article : "))
+
+    total = nb_art * pu
+    print(f"total HT {total}€")
 
 main()
