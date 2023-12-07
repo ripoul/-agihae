@@ -17,7 +17,7 @@ def get_discount(value):
 
 def main():
     nb_art = int(input("nombre d'article : "))
-    pu = int(input("prix par article : "))
+    pu = float(input("prix par article : "))
 
     total = nb_art * pu
     print(f"total HT {total}€")
