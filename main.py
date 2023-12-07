@@ -9,4 +9,10 @@ def main():
     total = nb_art * pu
     print(f"total HT {total}€")
 
+    cp = input("code postal : ")
+    montant_tax = tax[cp]
+    calc_tax = total * montant_tax
+    prix_ttc = total + calc_tax
+    print(f"prix TTC : {prix_ttc}€")
+
 main()
