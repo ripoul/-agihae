@@ -34,6 +34,6 @@ def main():
     print(f"your reduction discount is {reduction}€")
 
 
-    #print(f"Your total with reduction : {prix_ttc}")
+    print(f"Your total after discount : {prix_ttc-reduction}")
 
 main()
