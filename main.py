@@ -30,5 +30,10 @@ def main():
 
     reduce_taux = get_discount(prix_ttc)
     print(f"your reduce taux is {reduce_taux}")
-    
+    reduction = prix_ttc * reduce_taux
+    print(f"your reduction discount is {reduction}€")
+
+
+    #print(f"Your total with reduction : {prix_ttc}")
+
 main()
