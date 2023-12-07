@@ -4,6 +4,6 @@ tax = {"UT": 0.0685, "NV": 0.008, "TX": 0.0625, "AL": 0.04, "CA": 0.0825}
 
 def main():
     print(int(input("nombre d'article : ")))
-    print(input("prix par article : "))
+    print(int(input("prix par article : ")))
 
 main()
